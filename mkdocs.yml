@@ -7,8 +7,7 @@ theme:
     features:
         - navigation.tabs
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
+  - pymdownx.highlight
   - pymdownx.superfences 
 extra_css:
   - stylesheets/extra.css
