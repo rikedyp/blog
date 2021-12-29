@@ -6,8 +6,6 @@ theme:
         accent: pink 
     features:
         - navigation.tabs
-plugins:
-    - mkdocs-jupyter
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
