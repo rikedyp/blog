@@ -1,0 +1,16 @@
+site_name: RikedyBlog
+theme:
+    name: material
+    palette:
+        primary: teal
+        accent: pink 
+    features:
+        - navigation.tabs
+plugins:
+    - mkdocs-jupyter
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 
+extra_css:
+  - stylesheets/extra.css
