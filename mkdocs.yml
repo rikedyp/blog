@@ -6,6 +6,7 @@ theme:
         accent: pink 
     features:
         - navigation.tabs
+    custom_dir: overrides
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences 
