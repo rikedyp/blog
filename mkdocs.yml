@@ -4,8 +4,6 @@ theme:
     palette:
         primary: teal
         accent: pink 
-    features:
-        - navigation.tabs
     custom_dir: overrides
 markdown_extensions:
     - pymdownx.highlight
@@ -14,3 +12,7 @@ extra_css:
     - stylesheets/extra.css
 plugins:
     - awesome-pages
+    - search:
+        lang: ja
+    - tags:
+        tags_file: tags.md
