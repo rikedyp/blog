@@ -5,6 +5,8 @@ theme:
         primary: teal
         accent: pink 
     custom_dir: overrides
+    features:
+        - navigation.tabs
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences 
