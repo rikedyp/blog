@@ -18,3 +18,10 @@ plugins:
         lang: ja
     - tags:
         tags_file: tags.md
+nav:
+  - Home: index.md
+  - About: about.md
+  - Tags: tags.md
+  - History:
+    - 2022: history/2022.md
+    - 2021: history/2021.md
